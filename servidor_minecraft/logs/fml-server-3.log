@@ -1,0 +1,316 @@
+[05:41:20] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[05:41:20] [main/INFO] [FML/]: Forge Mod Loader version 11.14.4.1577 for Minecraft 1.8 loading
+[05:41:20] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[05:41:20] [main/DEBUG] [FML/]: Java classpath at launch is /workspaces/TORNEO-RENOVADO/servidor_minecraft/forge-1.8-11.14.4.1577-universal.jar
+[05:41:20] [main/DEBUG] [FML/]: Java library path at launch is /tmp/_MEIspnRbw:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+[05:41:20] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[05:41:20] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[05:41:20] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[05:41:20] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[05:41:20] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[05:41:20] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[05:41:20] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[05:41:20] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /workspaces/TORNEO-RENOVADO/servidor_minecraft/.
+[05:41:20] [main/DEBUG] [FML/]: Discovering coremods
+[05:41:20] [main/DEBUG] [FML/]: Examining for coremod candidacy forgeessentials-1.8-1.8.4.77-server.jar
+[05:41:20] [main/INFO] [FML/]: Loading tweaker com.forgeessentials.core.preloader.FELaunchHandler from forgeessentials-1.8-1.8.4.77-server.jar
+[05:41:20] [main/DEBUG] [FML/]: Examining for coremod candidacy worldedit-forge-mc1.8-6.1.jar
+[05:41:20] [main/DEBUG] [FML/]: Not found coremod data in worldedit-forge-mc1.8-6.1.jar
+[05:41:20] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[05:41:20] [main/INFO] [LaunchWrapper/]: Loading tweak class name com.forgeessentials.core.preloader.FELaunchHandler
+[05:41:20] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[05:41:20] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[05:41:20] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[05:41:20] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:41:20] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[05:41:20] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[05:41:20] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[05:41:20] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[05:41:20] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[05:41:20] [main/DEBUG] [FML/]: Injection complete
+[05:41:20] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[05:41:20] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[05:41:21] [main/DEBUG] [FML/]: Read 790 binary patches
+[05:41:21] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[05:41:21] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[05:41:21] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[05:41:21] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[05:41:21] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[05:41:21] [main/DEBUG] [FML/]: Injection complete
+[05:41:21] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[05:41:21] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[05:41:21] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[05:41:21] [main/INFO] [LaunchWrapper/]: Calling tweak class com.forgeessentials.core.preloader.FELaunchHandler
+[05:41:21] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.4.10 Source=file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/mods/forgeessentials-1.8-1.8.4.77-server.jar Env=SERVER
+[05:41:21] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #1
+[05:41:21] [main/INFO] [ForgeEssentials/]: Extracting libraries
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/hibernate-commons-annotations-4.0.5.Final.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/dom4j-1.6.1.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/hibernate-core-4.3.7.Final.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/hibernate-entitymanager-4.3.7.Final.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/slf4j-api-1.7.5.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/javassist-3.18.1-GA.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/jboss-logging-annotations-1.2.0.Beta1.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/xml-apis-1.0.b2.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/pircbotx-2.0.1.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/jboss-logging-3.1.3.GA.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/antlr-2.7.7.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/jandex-1.1.0.Final.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/mysql-connector-java-5.1.22.jar to classpath
+[05:41:21] [main/INFO] [ForgeEssentials/]: Added library /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/h2-1.3.175.jar to classpath
+[05:41:21] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[05:41:21] [main/DEBUG] [FML/]: Loaded 159 rules from AccessTransformer config file forge_at.cfg
+[05:41:21] [main/DEBUG] [FML/]: Loaded 3 rules from AccessTransformer mod jar file /workspaces/TORNEO-RENOVADO/servidor_minecraft/mods/forgeessentials-1.8-1.8.4.77-server.jar!META-INF/forgeessentials_at.cfg
+
+[05:41:21] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #2
+[05:41:21] [main/DEBUG] [FML/]: Validating minecraft
+[05:41:21] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[INIT]
+[05:41:21] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[05:41:21] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[05:41:21] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[05:41:21] [main/DEBUG] [mixin/]: Adding mixin launch agents for container file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/mods/forgeessentials-1.8-1.8.4.77-server.jar
+[05:41:21] [main/DEBUG] [FML/]: Instantiating coremod class FELoadingPlugin
+[05:41:21] [main/WARN] [FML/]: The coremod com.forgeessentials.core.preloader.FELoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[05:41:21] [main/DEBUG] [FML/]: Enqueued coremod FELoadingPlugin
+[05:41:21] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[05:41:21] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[05:41:21] [main/INFO] [LaunchWrapper/]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[05:41:21] [main/DEBUG] [mixin/]: Setting mixin compatibility level: JAVA_7
+[05:41:21] [main/INFO] [mixin/]: Compatibility level set to JAVA_7
+[05:41:21] [main/DEBUG] [mixin/]: Registering mixin config: mixins.forgeessentials.json
+[05:41:21] [main/DEBUG] [mixin/]: Processing launch tasks for LaunchAgent[MixinLaunchAgentFML:file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/mods/forgeessentials-1.8-1.8.4.77-server.jar]
+[05:41:22] [main/INFO] [mixin/]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@726e5805
+[05:41:22] [main/DEBUG] [mixin/]: Processing launch tasks for LaunchAgent[MixinLaunchAgentDefault:file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/mods/forgeessentials-1.8-1.8.4.77-server.jar]
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/forge-1.8-11.14.4.1577-universal.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning asmgen:/ for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/hibernate-commons-annotations-4.0.5.Final.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/dom4j-1.6.1.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/hibernate-core-4.3.7.Final.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/hibernate-entitymanager-4.3.7.Final.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/slf4j-api-1.7.5.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/javassist-3.18.1-GA.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/jboss-logging-annotations-1.2.0.Beta1.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/xml-apis-1.0.b2.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/pircbotx-2.0.1.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/jboss-logging-3.1.3.GA.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/antlr-2.7.7.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/jandex-1.1.0.Final.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/mysql-connector-java-5.1.22.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: Scanning file:/workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/h2-1.3.175.jar for mixin tweaker
+[05:41:22] [main/DEBUG] [mixin/]: injectIntoClassLoader running with 1 agents
+[05:41:22] [main/DEBUG] [FML/]: Injecting coremod FELoadingPlugin {com.forgeessentials.core.preloader.FELoadingPlugin} class transformers
+[05:41:22] [main/TRACE] [FML/]: Registering transformer com.forgeessentials.core.preloader.EventTransformer
+[05:41:22] [main/INFO] [ASM_ClassInjector/]: Scanning injector class com/forgeessentials/core/preloader/injections/MixinTest
+[05:41:22] [main/INFO] [ASM_ClassInjector/]: Found injector method bar_tweak => bar()I
+[05:41:22] [main/INFO] [ASM_ClassInjector/]: Found injector method test_head => test()V
+[05:41:22] [main/INFO] [ASM_ClassInjector/]: Found injector method test_invoke => test()V
+[05:41:22] [main/INFO] [ASM_ClassInjector/]: Found injector method test_local => test()V
+[05:41:22] [main/INFO] [ASM_ClassInjector/]: Found injector method test_tail => test()V
+[05:41:22] [main/INFO] [ASM_ClassInjector/]: Scanning injector class com/forgeessentials/core/preloader/injections/MixinEntity
+[05:41:22] [main/INFO] [ASM_ClassInjector/]: Found injector method attackEntityFrom_event => func_70097_a(Lnet/minecraft/util/DamageSource;F)Z
+[05:41:22] [main/INFO] [ASM_ClassInjector/]: Scanning injector class com/forgeessentials/core/preloader/injections/MixinBlockFire
+[05:41:22] [main/INFO] [ASM_ClassInjector/]: Found injector method fireDestroysBlockAndSpreads => tryCatchFire(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;ILjava/util/Random;ILnet/minecraft/util/EnumFacing;)V
+[05:41:22] [main/INFO] [ASM_ClassInjector/]: Found injector method fireDestroysBlockWithoutSpread => tryCatchFire(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;ILjava/util/Random;ILnet/minecraft/util/EnumFacing;)V
+[05:41:22] [main/INFO] [ASM_ClassInjector/]: Found injector method fireSpread => func_180650_b(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;)V
+[05:41:22] [main/DEBUG] [FML/]: Injection complete
+[05:41:22] [main/DEBUG] [FML/]: Running coremod plugin for FELoadingPlugin {com.forgeessentials.core.preloader.FELoadingPlugin}
+[05:41:22] [main/DEBUG] [FML/]: Running coremod plugin FELoadingPlugin
+[05:41:22] [main/DEBUG] [FML/]: Coremod plugin class FELoadingPlugin run successfully
+[05:41:22] [main/INFO] [LaunchWrapper/]: Calling tweak class org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[05:41:22] [main/WARN] [LaunchWrapper/]: Tweak class name org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker has already been visited -- skipping
+[05:41:22] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #3
+[05:41:22] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[05:41:22] [main/DEBUG] [mixin/]: Adding mixin config mixins.forgeessentials.json
+[05:41:22] [main/DEBUG] [mixin/]: Rebuilding transformer delegation list:
+[05:41:22] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.PatchingTransformer
+[05:41:22] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[05:41:22] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[05:41:22] [main/DEBUG] [mixin/]:   Excluding: $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[05:41:22] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[05:41:22] [main/DEBUG] [mixin/]:   Adding:    $wrapper.net.minecraftforge.classloading.FluidIdTransformer
+[05:41:22] [main/DEBUG] [mixin/]:   Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[05:41:22] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[05:41:22] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.AccessTransformer
+[05:41:22] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ModAccessTransformer
+[05:41:22] [main/DEBUG] [mixin/]:   Adding:    net.minecraftforge.fml.common.asm.transformers.ItemStackTransformer
+[05:41:22] [main/DEBUG] [mixin/]:   Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[05:41:22] [main/DEBUG] [mixin/]:   Excluding: net.minecraftforge.fml.common.asm.transformers.TerminalTransformer
+[05:41:22] [main/DEBUG] [mixin/]:   Adding:    $wrapper.com.forgeessentials.core.preloader.EventTransformer
+[05:41:22] [main/DEBUG] [mixin/]:   Excluding: org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy
+[05:41:22] [main/DEBUG] [mixin/]: Transformer delegation list created with 10 entries
+[05:41:22] [main/DEBUG] [mixin/]: Found name transformer: net.minecraftforge.fml.common.asm.transformers.DeobfuscationTransformer
+[05:41:22] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityPlayerMP.func_70097_a at HEAD
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/player/EntityPlayerMP to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/CommandHandler to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/EntityTracker to metadata cache
+[05:41:22] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into Entity.func_70097_a at HEAD
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/Entity to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/NetHandlerPlayServer to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/management/ItemInWorldManager to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/item/crafting/CraftingManager to metadata cache
+[05:41:22] [main/ERROR] [mixin/]: The specified mixin 'com.forgeessentials.core.preloader.mixin.block.MixinBlock' was not found
+java.lang.ClassNotFoundException: The specified mixin 'com.forgeessentials.core.preloader.mixin.block.MixinBlock' was not found
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.loadMixinClass(MixinInfo.java:655) ~[forgeessentials-1.8-1.8.4.77-server.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:267) ~[forgeessentials-1.8-1.8.4.77-server.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.initialiseMixins(MixinConfig.java:352) [forgeessentials-1.8-1.8.4.77-server.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.initialise(MixinConfig.java:291) [forgeessentials-1.8-1.8.4.77-server.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.initConfigs(MixinTransformer.java:537) [forgeessentials-1.8-1.8.4.77-server.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.init(MixinTransformer.java:483) [forgeessentials-1.8-1.8.4.77-server.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transform(MixinTransformer.java:391) [forgeessentials-1.8-1.8.4.77-server.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer$Proxy.transform(MixinTransformer.java:107) [forgeessentials-1.8-1.8.4.77-server.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) [launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) [?:1.8.0_432]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) [?:1.8.0_432]
+	at java.lang.Class.forName0(Native Method) [?:1.8.0_432]
+	at java.lang.Class.forName(Class.java:348) [?:1.8.0_432]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:131) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_432]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_432]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_432]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_432]
+	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:43) [forge-1.8-11.14.4.1577-universal.jar:?]
+	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:12) [forge-1.8-11.14.4.1577-universal.jar:?]
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for java/util/Map$Entry to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/WorldSettings$GameType to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/event/entity/player/PlayerInteractEvent$Action to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/fml/common/eventhandler/Event$Result to metadata cache
+[05:41:22] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into Entity.func_70097_a at HEAD
+[05:41:22] [main/DEBUG] [mixin/]: Mixing entity.MixinEntity_01 from mixins.forgeessentials.json into net.minecraft.entity.Entity
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/common/MinecraftForge to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/nbt/NBTTagCompound to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for java/util/Iterator to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/nbt/NBTBase to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for java/lang/Throwable to metadata cache
+[05:41:22] [main/TRACE] [mixin/]: Added class metadata for net/minecraftforge/common/IExtendedEntityProperties to metadata cache
+[05:41:22] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityPlayer.func_70097_a at HEAD
+[05:41:23] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityLivingBase.func_70097_a at HEAD
+[05:41:23] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[05:41:23] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityItem.func_70097_a at HEAD
+[05:41:23] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityXPOrb.func_70097_a at HEAD
+[05:41:23] [main/INFO] [ASM_ClassInjector/]: Starting injection into net.minecraft.block.BlockFire
+[05:41:23] [main/INFO] [ASM_MethodInjector/]: Injecting MixinBlockFire.fireSpread into BlockFire.func_180650_b at SHIFT[src = INVOKE[c = net/minecraft/world/World, n = func_180501_a, d = (Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z, idx = 1], shift = LAST_LABEL, by = 0]
+[05:41:23] [main/INFO] [ASM_MethodInjector/]: Injecting MixinBlockFire.fireDestroysBlockAndSpreads into BlockFire.tryCatchFire at SHIFT[src = INVOKE[c = net/minecraft/world/World, n = func_180501_a, d = (Lnet/minecraft/util/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z, idx = -1], shift = LAST_LABEL, by = 0]
+[05:41:23] [main/INFO] [ASM_MethodInjector/]: Injecting MixinBlockFire.fireDestroysBlockWithoutSpread into BlockFire.tryCatchFire at SHIFT[src = INVOKE[c = net/minecraft/world/World, n = func_175698_g, d = (Lnet/minecraft/util/BlockPos;)Z, idx = -1], shift = LAST_LABEL, by = 0]
+[05:41:23] [main/INFO] [ASM_MethodInjector/]: Injecting MixinBlockFire.fireDestroysBlockWithoutSpread into BlockFire.tryCatchFire at SHIFT[src = INVOKE[c = net/minecraft/world/World, n = func_175698_g, d = (Lnet/minecraft/util/BlockPos;)Z, idx = -1], shift = LAST_LABEL, by = 0]
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntitySilverfish.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityMob.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityWither.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityHanging.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityItemFrame.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityMinecart.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityAnimal.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityBoat.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityPlayerMP.func_70097_a at HEAD
+[05:41:24] [main/DEBUG] [mixin/]: Mixing player.MixinEntityPlayer_01 from mixins.forgeessentials.json into net.minecraft.entity.player.EntityPlayerMP
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityPlayer.func_70097_a at HEAD
+[05:41:24] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/player/EntityPlayer to metadata cache
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityLivingBase.func_70097_a at HEAD
+[05:41:24] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/entity/EntityLivingBase to metadata cache
+[05:41:24] [main/TRACE] [mixin/]: Added class metadata for java/lang/String to metadata cache
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityArmorStand.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityFireball.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntitySmallFireball.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityWitherSkull.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityMinecartTNT.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityZombie.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityGhast.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityPigZombie.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityEnderman.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityDragon.func_70097_a at HEAD
+[05:41:24] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityBat.func_70097_a at HEAD
+[05:41:25] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityGuardian.func_70097_a at HEAD
+[05:41:25] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityWolf.func_70097_a at HEAD
+[05:41:25] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityOcelot.func_70097_a at HEAD
+[05:41:25] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityHorse.func_70097_a at HEAD
+[05:41:25] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityRabbit.func_70097_a at HEAD
+[05:41:25] [main/INFO] [ASM_MethodInjector/]: Injecting MixinEntity.attackEntityFrom_event into EntityEnderCrystal.func_70097_a at HEAD
+[05:41:25] [main/DEBUG] [mixin/]: Mixing item.crafting.MixinCraftingManager from mixins.forgeessentials.json into net.minecraft.item.crafting.CraftingManager
+[05:41:25] [main/DEBUG] [mixin/]: Mixing command.MixinCommandHandler_01 from mixins.forgeessentials.json into net.minecraft.command.CommandHandler
+[05:41:25] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/CommandException to metadata cache
+[05:41:25] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/WrongUsageException to metadata cache
+[05:41:25] [main/TRACE] [mixin/]: Added class metadata for java/lang/Exception to metadata cache
+[05:41:25] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/command/SyntaxErrorException to metadata cache
+[05:41:25] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[05:41:25] [Server thread/INFO] [FML/]: MinecraftForge v11.14.4.1577 Initialized
+[05:41:25] [Server thread/INFO] [FML/]: Replaced 204 ore recipies
+[05:41:25] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[05:41:25] [Server thread/DEBUG] [FML/]: File /workspaces/TORNEO-RENOVADO/servidor_minecraft/config/injectedDependencies.json not found. No dependencies injected
+[05:41:25] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[05:41:25] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/forge-1.8-11.14.4.1577-universal.jar, examining for mod candidates
+[05:41:25] [Server thread/TRACE] [FML/]: Skipping known library file /workspaces/TORNEO-RENOVADO/servidor_minecraft/mods/forgeessentials-1.8-1.8.4.77-server.jar
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/hibernate-commons-annotations-4.0.5.Final.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/dom4j-1.6.1.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/hibernate-core-4.3.7.Final.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/hibernate-entitymanager-4.3.7.Final.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/slf4j-api-1.7.5.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/javassist-3.18.1-GA.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/jboss-logging-annotations-1.2.0.Beta1.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/xml-apis-1.0.b2.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/pircbotx-2.0.1.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/jboss-logging-3.1.3.GA.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/antlr-2.7.7.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/jandex-1.1.0.Final.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/mysql-connector-java-5.1.22.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /workspaces/TORNEO-RENOVADO/servidor_minecraft/ForgeEssentials/lib/h2-1.3.175.jar, examining for mod candidates
+[05:41:25] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[05:41:25] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[05:41:25] [Server thread/INFO] [FML/]: Searching /workspaces/TORNEO-RENOVADO/servidor_minecraft/mods for mods
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file forgeessentials-1.8-1.8.4.77-server.jar
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file worldedit-forge-mc1.8-6.1.1-SNAPSHOT-dist.jar
+[05:41:25] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file worldedit-forge-mc1.8-6.1.jar
+[05:41:25] [Server thread/DEBUG] [FML/]: Examining file forge-1.8-11.14.4.1577-universal.jar for potential mods
+[05:41:25] [Server thread/DEBUG] [FML/]: The mod container forge-1.8-11.14.4.1577-universal.jar appears to be missing an mcmod.info file
+[05:41:25] [Server thread/DEBUG] [FML/]: Examining file hibernate-commons-annotations-4.0.5.Final.jar for potential mods
+[05:41:25] [Server thread/DEBUG] [FML/]: The mod container hibernate-commons-annotations-4.0.5.Final.jar appears to be missing an mcmod.info file
+[05:41:25] [Server thread/DEBUG] [FML/]: Examining file dom4j-1.6.1.jar for potential mods
+[05:41:25] [Server thread/DEBUG] [FML/]: The mod container dom4j-1.6.1.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file hibernate-core-4.3.7.Final.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container hibernate-core-4.3.7.Final.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file hibernate-entitymanager-4.3.7.Final.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container hibernate-entitymanager-4.3.7.Final.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file slf4j-api-1.7.5.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container slf4j-api-1.7.5.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file jboss-transaction-api_1.2_spec-1.0.0.Final.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container jboss-transaction-api_1.2_spec-1.0.0.Final.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file javassist-3.18.1-GA.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container javassist-3.18.1-GA.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file jboss-logging-annotations-1.2.0.Beta1.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container jboss-logging-annotations-1.2.0.Beta1.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file xml-apis-1.0.b2.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container xml-apis-1.0.b2.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file pircbotx-2.0.1.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container pircbotx-2.0.1.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file hibernate-jpa-2.1-api-1.0.0.Final.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container hibernate-jpa-2.1-api-1.0.0.Final.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file jboss-logging-3.1.3.GA.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container jboss-logging-3.1.3.GA.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file antlr-2.7.7.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container antlr-2.7.7.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file jandex-1.1.0.Final.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container jandex-1.1.0.Final.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file mysql-connector-java-5.1.22.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container mysql-connector-java-5.1.22.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file h2-1.3.175.jar for potential mods
+[05:41:26] [Server thread/DEBUG] [FML/]: The mod container h2-1.3.175.jar appears to be missing an mcmod.info file
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file forgeessentials-1.8-1.8.4.77-server.jar for potential mods
+[05:41:26] [Server thread/TRACE] [FML/]: Located mcmod.info file in file forgeessentials-1.8-1.8.4.77-server.jar
+[05:41:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.forgeessentials.core.ForgeEssentials) - loading
+[05:41:26] [Server thread/TRACE] [ForgeEssentials/]: Parsed dependency info : [Forge@[10.13.4.1448,)] [Forge@[10.13.4.1448,), WorldEdit] []
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file worldedit-forge-mc1.8-6.1.1-SNAPSHOT-dist.jar for potential mods
+[05:41:26] [Server thread/TRACE] [FML/]: Located mcmod.info file in file worldedit-forge-mc1.8-6.1.1-SNAPSHOT-dist.jar
+[05:41:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.sk89q.worldedit.forge.ForgeWorldEdit) - loading
+[05:41:26] [Server thread/TRACE] [worldedit/]: Parsed dependency info : [] [] []
+[05:41:26] [Server thread/DEBUG] [FML/]: Examining file worldedit-forge-mc1.8-6.1.jar for potential mods
+[05:41:26] [Server thread/TRACE] [FML/]: Located mcmod.info file in file worldedit-forge-mc1.8-6.1.jar
+[05:41:26] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.sk89q.worldedit.forge.ForgeWorldEdit) - loading
+[05:41:26] [Server thread/TRACE] [worldedit/]: Parsed dependency info : [] [] []
+[05:41:27] [Server thread/ERROR] [FML/]: Found a duplicate mod worldedit at [/workspaces/TORNEO-RENOVADO/servidor_minecraft/mods/worldedit-forge-mc1.8-6.1.1-SNAPSHOT-dist.jar, /workspaces/TORNEO-RENOVADO/servidor_minecraft/mods/worldedit-forge-mc1.8-6.1.jar]
